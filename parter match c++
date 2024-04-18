@@ -5,7 +5,7 @@ using namespace std;
 
 int main() 
  {
-cout << "select a Patner" << endl;
+cout << "select a Partner" << endl;
 cout << "Select gender (1.Male, 2.Female): "<< endl;
 int Gender;
 cin >> Gender;
@@ -20,9 +20,9 @@ cin >> Height;
 
 if (Gender == 1) {
 if (Body == 1 && Height == 1) {
-cout << "You're searching for a tall and thick man!" << endl;}
+cout << "You're searching for a tall and masculine man!" << endl;}
 else if (Body == 1 && Height == 2) {
-cout << "You're seraching for a short and thick man!" << endl;}
+cout << "You're seraching for a short and masculine man!" << endl;}
 else if (Body == 2 && Height == 1) {
 cout << "You're searching for a tall and masculine man!" << endl;}
  else if (Body == 2 && Height == 2) {
